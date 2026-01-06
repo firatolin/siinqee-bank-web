@@ -1,0 +1,71 @@
+@'
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Maven
+target/
+.mvn/
+maven/
+maven-temp.zip
+maven.zip
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# IntelliJ
+.idea/
+*.iml
+*.iws
+
+# VS Code
+.vscode/
+
+# Node/React
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+
+# React build
+build/
+dist/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs/
+*.log
+
+# OS
+Thumbs.db
+
+# Database files
+*.db
+*.sqlite
+
+# Application properties (optional - be careful!)
+# src/main/resources/application.properties
+
+# Temporary files
+tmp/
+temp/
+
+# IDE specific
+*.swp
+*.swo
+*~
+'@ | Out-File -FilePath ".gitignore" -Encoding ASCII
